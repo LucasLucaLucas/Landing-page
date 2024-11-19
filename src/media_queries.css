@@ -1,0 +1,31 @@
+@media (max-width:768px) {
+
+    body {
+        height: 100vh;
+        overflow: hidden;
+        background-color: black;
+        background-image: url(../imagens/fundo\ kimetsu_cel.jpg);
+        justify-content: center;
+        align-items: center;
+     
+    }
+
+    header {
+        z-index: 1;
+    }
+
+    .navigation ul{
+        display: none;
+    }
+
+    .descrition {
+        display: flex;
+        backdrop-filter: blur(3px);
+        position: absolute;
+        top: 79px;
+        left: -36px;
+        width: 404px;
+       
+    }
+}
+
