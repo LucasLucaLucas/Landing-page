@@ -1,6 +1,6 @@
 @media (max-width:768px) {
 
-    body {
+    html, body {
         height: 100vh;
         overflow: hidden;
         background-color: black;
@@ -12,6 +12,7 @@
 
     header {
         z-index: 1;
+        width: 100%;
     }
 
     .navigation ul{
